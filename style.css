@@ -20,6 +20,7 @@ body {
 canvas {
 	position: absolute;
 	z-index: 1;
+	image-rendering: url('shader/xBRZ.shader');
 	filter: url('shader/xBRZ.shader');
 }
 
