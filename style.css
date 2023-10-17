@@ -21,6 +21,7 @@ canvas {
 	position: absolute;
 	z-index: 1;
 	image-rendering: pixelated;
+	filter: url('shader/xBRZ.shader');
 }
 
 #msg-layer {
